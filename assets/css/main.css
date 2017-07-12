@@ -14,6 +14,14 @@ body {
   color: white;
 }
 
+#puppylove {
+  background-image: url('../images/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 nav {
   position: fixed;
   background-color: transparent;
@@ -38,15 +46,42 @@ button {
   width: 130px;
 }
 
-
-#puppylove {
-  background-image: url('../images/banner.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+div.row{
+  margin-bottom: 0;
 }
 
+.btn-transparent {
+  background-color: transparent;
+  border: 3px solid white;
+}
+.box {
+  text-align: left;
+  height: 30vh;
+  font-size: .8rem;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.79);
+}
+.icons-red {
+  height: 25px;
+  width: 25px;
+}
+.flex {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+.icon-f {
+  color: rgb(144, 144, 144);
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+/*background section*/
 .bg-green {
   padding: 30px 0;
   background-color: #21B2A6;
@@ -61,35 +96,23 @@ button {
   background-color: #2B343D;
 }
 
-div.row{
-  margin-bottom: 0;
-}
 
-.icons-red {
-  height: 25px;
-  width: 25px;
+/*gradientes de lila*/
+.color-l1 {
+  background-color: #4E508E;
 }
-
-footer {
-  background-color: rgba(0, 0, 0, 0.79);
+.color-l2 {
+  background-color: #4B4D89;
 }
-
-.flex {
-  align-items: center;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
+.color-l3 {
+  background-color: #484B84;
 }
-
-.icon-f {
-  color: rgb(144, 144, 144);
-  font-size: 1rem;
-  margin-left: 10px;
+.color-l4 {
+  background-color: #45487F;
 }
-
-.btn-transparent {
-  background-color: transparent;
-  border: 3px solid white;
+.color-l5 {
+  background-color: #42457A;
+}
+.color-l6 {
+  background-color: #3F4275;
 }
