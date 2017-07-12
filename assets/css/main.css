@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+button {
+  border: none;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ED4933;
+}
+
+nav {
+  background-color: transparent;
+}
+
+#puppylove {
+  background-image: url('../images/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
