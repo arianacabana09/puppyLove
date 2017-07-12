@@ -48,15 +48,21 @@ button {
 }
 
 .bg-green {
+  padding: 30px 0;
   background-color: #21B2A6;
 }
 
 .bg-purple {
+  padding: 30px 0;
   background-color: #505393;
 }
 
 .bg-grey {
   background-color: #2B343D;
+}
+
+div.row{
+  margin-bottom: 0;
 }
 
 .icons-red {
