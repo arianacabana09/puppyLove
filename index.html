@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/materialize.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="assets/images/icons/style.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <title>Puppy Love | Adopta </title>
 </head>
 <body>
   <header id="puppylove">
-    <nav class="">
+    <nav>
       <div class="nav-wrapper">
         <span>Menú</span>
         <a href="#" data-activates="mobile-demo" class="button-collapse right">Menu<image src="assets/images/icons/bars.svg"></a>
@@ -23,19 +25,21 @@
         </ul>
       </div>
     </nav>
-    <div class="container">
-      <div class="home-text">
-        <h5>PUPPY LOVE</h5>
-        <span> ESTAMOS AQUÍ PARA LOS CACHORROS LOS CACHORROS SON PURO AMOR </span>
+    <div class="row flex center" style="height: 60vh">
+      <div class="home-text col l4">
+        <div class="title">
+          <p>PUPPY LOVE</p>
+        </div>
+        <p> ESTAMOS AQUÍ PARA LOS CACHORROS LOS CACHORROS SON PURO AMOR </p>
         <button type="button"> Adopte </button>
       </div>
-      <div class="leer">
+      <div id="leer" class="row">
         <span>LEER MAS</span>
         <img src="assets/images/icons/arrow.svg" alt="leer más">
       </div>
     </div>
   </header>
-  <section id="introduccion">
+  <section id="introduccion" class="bg-green">
     <div class="container center">
       <h5 class="">¡Elegir la mascota correcta es emocionante! Utilice la búsqueda de Adoptapet para ver las muchas mascotas maravillosas que esperan su adopción.</h5>
       <p>Todos los animales están listos para sus nuevos hogares. Los perros son vacunados y castrados para ayudar a darles el mejor estilo de vida posible. Mediante la adopción, no sólo está dando un nuevo hogar a un animal en necesidad, sino tambien esta ayudando a la atención a muchos más animales.</p>
@@ -46,13 +50,13 @@
       </div>
     </div>
   </section>
-  <section id="easy-steps-for-adopting">
+  <section id="easy-steps-for-adopting" class="bg-grey">
       <div class="row">
         <div class="col s12 m5 l5">
           <img class="responsive-img" src="assets/images/pic01.jpg" alt="">
         </div>
         <div class="col s12 m7 l7">
-          <h2>Plan and Search</h2>
+          <h2> Plan and Search </h2>
           <p>¿Es su estilo de vida adecuado para proporcionar atención, amor y atención diaria? Los costos iniciales y los gastos continuos, como la comida y las facturas del veterinario, también deben ser considerados. Utilice nuestra búsqueda para verificar las mascotas disponibles. </p>
         </div>
       </div>
@@ -77,7 +81,7 @@
         </div>
       </div>
   </section>
-  <section id="Caring-for-your-pet">
+  <section id="Caring-for-your-pet" class="bg-purple">
     <div class="container">
       <div class="row center">
         <h2> Caring for your pet </h2>
@@ -131,14 +135,18 @@
         <div id="adopta" class="col s12 m4 l4">
           <button type="button" >ADOPTE</button>
           <br>
-          <button type="button">LEARN MORE</button>
+          <button type="button" class="btn-transparent">LEARN MORE</button>
         </div>
       </div>
     </div>
   </section>
   <footer>
-    <div>
-      <img class="icons-red" src="http://www.iconsdb.com/icons/preview/gray/twitter-xxl.png" alt="">
+    <div class="container center flex" style="height: 20vh">
+      <i class="icon-f icon-twitter"></i>
+      <i class="icon-f icon-facebook"></i>
+      <i class="icon-f icon-instagram"></i>
+      <i class="icon-f icon-dribbble"></i>
+      <i class="icon-f icon-envelope-o"></i>
     </div>
   </footer>
   <script src="assets/js/jquery-3.2.1.min.js" charset="utf-8"></script>

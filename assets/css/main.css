@@ -1,31 +1,43 @@
 * {
-  padding: 0;
-  margin: 0;
-  word-wrap: break-word;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
 }
+
 body {
   background-color: black;
-  color: white;
   background-image: url('../images/banner.jpg');
   background-position: center;
-  background-size: 100% 80vh;
-  height: 100%;
+  background-size: 100% 20%;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  background-color: transparent;
+}
+
+.title{
+  font-size: 2rem;
+  letter-spacing: 5px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 250px;
+  font-weight: bold;
 }
 
 button {
   box-sizing: border-box;
   border: none;
-  width: 130px;
-  padding: 20px 0;
   border-radius: 5px;
   background-color: #ED4933;
   margin: 5px;
+  padding: 10px 0;
+  width: 130px;
 }
 
-nav {
-  background-color: transparent;
-}
 
 #puppylove {
   background-image: url('../images/banner.jpg');
@@ -35,7 +47,43 @@ nav {
   height: 100vh;
 }
 
+.bg-green {
+  background-color: #21B2A6;
+}
+
+.bg-purple {
+  background-color: #505393;
+}
+
+.bg-grey {
+  background-color: #2B343D;
+}
+
 .icons-red {
-  width: 25px;
   height: 25px;
+  width: 25px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.79);
+}
+
+.flex {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+
+.icon-f {
+  color: rgb(144, 144, 144);
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 3px solid white;
 }
