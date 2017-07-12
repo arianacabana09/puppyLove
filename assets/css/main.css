@@ -7,14 +7,20 @@
 body {
   background-color: black;
   color: white;
+  background-image: url('../images/banner.jpg');
+  background-position: center;
+  background-size: 100% 80vh;
+  height: 100%;
 }
 
 button {
+  box-sizing: border-box;
   border: none;
-  width: 120px;
-  padding: 10px;
-  border-radius: 10px;
+  width: 130px;
+  padding: 20px 0;
+  border-radius: 5px;
   background-color: #ED4933;
+  margin: 5px;
 }
 
 nav {
@@ -27,4 +33,9 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+.icons-red {
+  width: 25px;
+  height: 25px;
 }
