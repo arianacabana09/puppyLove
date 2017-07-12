@@ -1,0 +1,23 @@
+{
+  "name": "leccion54_puppylove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianacabana09/puppyLove.git"
+  },
+  "author": "@arianacabana09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arianacabana09/puppyLove/issues"
+  },
+  "homepage": "https://github.com/arianacabana09/puppyLove#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
